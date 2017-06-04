@@ -1,4 +1,4 @@
-'use strict';
+'use stric';
 
 process.env.NODE_ENV = 'test';
 
@@ -24,7 +24,7 @@ describe('auth : helpers', () => {
   afterEach(() => {
     return knex.migrate.rollback();
   });
-  
+
   describe('comparePass()', () => {
     it('should return true if the password is correct', (done) => {
       const salt = bcrypt.genSaltSync();
