@@ -82,6 +82,7 @@ module.exports = class extends Generator {
         if (err) {
           throw err;
         }
+        console.log(data);
         this.fs.copy(
           this.templatePath('package.json'),
           this.destinationPath('package.json')
