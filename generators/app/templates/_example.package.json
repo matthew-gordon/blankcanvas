@@ -4,8 +4,7 @@
   "private": true,
   "scripts": {
     "start": "nodemon",
-    "test": "NODE_ENV=test mocha",
-    "postinstall": "knex migrate:latest --env development && knex migrate:latest --env test && knex seed:run --env development && knex seed:run --env test"
+    "test": "NODE_ENV=test mocha"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
