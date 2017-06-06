@@ -12,7 +12,7 @@ npm install -g generator-blankcanvas
 Then generate your new project:
 
 ```bash
-yo glasshouse
+yo blankcanvas
 ```
 
 ## Getting To Know Yeoman
